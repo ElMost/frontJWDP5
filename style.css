@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  padding: 0px 40px;
+}
+
+#panier{
+  width: 15%;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-between;
+}
+
+#produit-header{
+  font-size: x-large;
+}
+
+#container{
+	position: relative;
+  top: 80px;
+}
+
+#myCarousel{
+	/* height: 400px; */
+}
+
+#myCarousel img{
+	width: 100%;
+	height: 100%;
+}
+
+#liste-article{
+	display: flex;
+  justify-content: space-around;
+	flex-flow: wrap;
+	position: relative;
+}
+
+.produit{
+  text-align: center;
+  padding: 10px;
+  margin: 10px !important;
+  margin: auto;
+  width: 280px;
+  height: 290px;
+  border: solid 0.5px;
+}
+
+.image{
+  width: 100%;
+}
+
+.detail-produit{
+  display: flex;
+}
+
+.descriptionimg{
+  width: 100%;
+}
+
+#price{
+  text-align: center;
+  font-size: xx-large;
+}
+
+#color{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-footer button{
+  width: 150px;
+  border-radius: 20px;
+}
+
+#panier span{
+  font-size: 19px;
+  color: red;
+  position: relative;
+  bottom: 20px;
+}
+
+.fa-cart-arrow-down:hover{
+  cursor: pointer;
+}
